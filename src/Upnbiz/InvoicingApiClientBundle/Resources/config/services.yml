@@ -1,0 +1,4 @@
+services:
+    upnbiz_invoicing_api_client:
+        class: Upnbiz\lib\ApiClient
+        arguments: ["%upnbiz_invoicing_api_client.base_uri%"]

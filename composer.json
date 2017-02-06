@@ -1,0 +1,26 @@
+{
+    "name": "upnbiz/invoicing-api-client-bundle",
+    "version": "0.1.0",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "url": "git@github.com:VaN-dev/unbms-api-client.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/symfony": "3.1.*",
+        "upnbiz/invoicing-api-client": "0.1.0"
+    }
+}
